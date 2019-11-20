@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Poppins; 
+}
+p{
+    font-family: Roboto;
+}
+
+header{
+    width: 100%;
+    border-bottom: #2955a8e5 6px solid;
+}
+header img{
+    width: 100%;
+    height: auto;
+}
+.card{
+    margin-top: 5% !important;
+    text-align: center;
+    border: none !important;
+    margin-left: 20px;
+}
+.showcase-left img{
+    width: 100%;
+    height: auto;
+}
+.showcase-right .bio{
+color: #008ed6;
+}
+.showcase-right .during{
+    font-size: 110%;
+    }
+
+
+
+   /* .showcase-right a .showcase-btn{
+        border:#008ed6 5px solid;
+    }*/
+
+
+
+#showcase h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#kr-1{
+    background-color: #008ed6;
+    text-align: center;
+    color: #ffffff;
+    margin: 40px 0 0 0;
+    padding: 20px 0 20px 0;
+    border-bottom: #2955a8e5 6px solid;
+    border-top: #2955a8e5 6px solid;
+
+}
+.card-img{
+    height:350px;
+    width: auto !important;
+}
+
+.container btn{
+    color: hsl(0, 4%, 14%);
+    font-weight: bolder;
+}
+#dis{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 25px !important;
+}
+
+#video{
+    text-align: center;
+    margin: 20px 0 16px 0;
+}
+.vid{
+    border: #013752 5px solid;
+    border-radius: 15px;
+}
+
+footer{
+    margin: 0 !important;
+}

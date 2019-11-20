@@ -1,0 +1,23 @@
+.puc1{
+  margin: 25px 0 25px 0; 
+  text-align: center;
+  width: 100%;
+}
+.tab1, .tab3{
+    background-color: #2a7045f5;
+}
+.mico{
+    background-color: #338651f5 !important;
+}
+.nax1{
+    margin-top: 10px;    
+}
+.naxun{
+    background-color: #32814ff5 !important;
+}
+nav{
+    background-color: #32814ff5 !important;
+}
+.overlay{
+    background-color: #32814ff5 !important;
+}

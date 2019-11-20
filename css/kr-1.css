@@ -1,0 +1,246 @@
+*{
+   
+
+}
+
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+.navbar{
+    border-bottom: #5edfff 3px solid;
+    opacity: 0.9;
+
+}
+
+body span{
+    color: #333;
+    
+}
+
+body .maina{
+    font-weight: bold;
+}
+
+
+.v-header{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: #333 6px solid;
+}
+.fullscreen-video-wrap{
+    height: auto;
+    width: 100%;    
+    position: relative;
+}
+.fullscreen-video-wrap video{
+    margin: 0;
+    height: auto;
+    width: 100%;
+    top:0;
+    left: 0;
+    /* opacity: 0.45; */
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #333;
+    opacity: 0.35;
+    z-index: 1;
+}
+.header-content{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+   
+   
+}
+
+
+.nawa{
+    margin: 0;
+    width: 100%;
+
+}
+.nawa img{
+    margin: auto;
+    width: 100%;
+}
+.table{
+    margin: auto;
+    width: 80%;
+    color:#fff;
+    margin-top: 20px;
+}
+.table td{
+    text-align: center;
+    width: 40%;
+}
+
+.table th{
+     width: 20%;
+     text-align: center;
+}
+
+.tab1, .tab3{
+    background-color: #008fd6c9;
+    padding: 10px 0 30px 0;
+}
+.tab2{
+    padding: 10px 0 30px 0;
+}
+.rem{
+    font-size: 10px;
+    color: #fff;
+}
+
+
+.raw{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+
+.bare th{
+    width: 13.5%;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*fixed=parallax
+    scroll=normal*/
+
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url(../img/vagita.jpg);
+    min-height: 350px;
+    border-bottom: #008ed6 5px solid;
+}
+
+.pimg2{
+    background-image: url(../img/cotton.jpg);
+    min-height: 350px;
+}
+
+.pimg3{
+    background-image: url(../img/6.jpeg);
+    min-height: 350px;
+} 
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color: #f4f4f4;
+}
+.section-dark{
+    background-color: #008ed6;
+    color: #ddd;
+    border-top: #fff 3px solid;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #008ed6;
+    font-size: 27px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+}
+.ptext .border{
+    background-color: #008ed6;
+    color: #fff;
+    padding: 20px;
+}
+.ptext .border .trans{
+    background-color: transparent;
+}
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+    }
+    .ptext{
+        font-size: 15px;
+    }
+}
+
+footer {
+    min-height: 60px;
+    border-top: #008ed6 4px solid;
+    color: #fff;
+    text-align: center;
+   
+}
+.zar{
+    height: 50%;
+}
+
+footer a{
+    color: #fff;
+    font-weight: bold;
+}
+.vus{
+    margin-left: 10px;
+}
+footer a:hover{
+    color: #fff;
+    font-weight: bold;
+}
+.footer{
+    margin: 0;
+   border-top: #008ed6 3px solid;
+}
+.mains{
+    text-align: center;
+    padding: 60px 0 60px 0;
+    background-color: #008ed6;
+    border-top: rgb(235, 235, 235) 3px solid;
+    border-bottom: rgb(235, 235, 235) 3px solid;
+}
+.apply{
+    width: 60%;
+    margin: auto;
+    color: rgb(238, 237, 237);
+}
+.mains1{
+    text-align: center;
+    background: #008ed6;
+    padding: 60px 0 60px 0;
+}
+.apply1{
+    width: 60%;
+    margin: auto;
+    color: rgb(238, 237, 237);
+}
+.meen{
+    margin-top: 15px;
+}
+.mains2{
+    border-top: rgb(235, 235, 235) 3px solid;
+    border-bottom: rgb(235, 235, 235) 3px solid;
+    background: #008ed6;
+    padding: 60px 0 60px 0;
+}
+.apply2{
+    width: 56%;
+    margin: auto;
+    color: rgb(238, 237, 237);
+}
